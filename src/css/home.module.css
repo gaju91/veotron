@@ -1,0 +1,82 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/homebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.icon {
+    flex :0.1;
+    margin-top : 10px;
+    width: 100%;
+    color: beige;
+    font-size: 23px;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+}
+
+.h3 {
+    font-size: 15px;
+    color: rgb(241, 227, 221);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    text-shadow: 3px 3px 2px black;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+    margin-top : 15vh;
+    color: rgb(255, 254, 254);
+    font-size: 13vh;
+    font-family: 'Sacramento', cursive;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.button_wrap {
+    display: flex;
+    margin-top: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_wrap > button {
+    flex: 0.15;
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px !important;
+    box-shadow: 1px 1px 1px 0px white;
+    text-shadow: 3px 3px 2px black;
+    font-weight: bold !important;
+    color: white;
+    border-radius: 10px;
+}
+
+.button_wrap > button:hover {
+    transform: scale(1.1);
+}
+
+.button_wrap > button > a {
+    text-decoration: none;
+    color: unset;
+}
+
+.gap {
+    flex: .1;
+}

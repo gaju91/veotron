@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Philosopher', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+video {
+  height: 95%;
+  min-width: 30%;
+  max-width: 100%;
+  margin : 5px;
+  border-radius: 5px;
+  object-fit: cover;
+}
